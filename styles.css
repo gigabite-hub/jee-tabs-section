@@ -144,3 +144,35 @@ html {
 .tab-section-img img {
     margin-top: 20px;
 }
+
+.tabs-items .rel-sec:last-child .tab-section {
+    border: 0px;
+}
+
+.bottom-det {
+    text-align: center;
+    margin: 50px 0px 100px 0px;
+}
+
+.bottom-det h2 {
+    margin: 0px;
+    font-size: 30px;
+}
+
+.bottom-det a {
+    margin: 0px;
+    background-color: #008060;
+    padding: 15px 20px;
+    line-height: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.bottom-det a:hover, .bottom-det a:focus {
+    background-color: #004c3f;
+    color: #ffffff;
+    transition: all 0.5s;
+}
