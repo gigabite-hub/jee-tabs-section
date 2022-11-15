@@ -140,3 +140,7 @@ html {
 .tab-section-item>p span {
     line-height: 40px;
 }
+
+.tab-section-img img {
+    margin-top: 20px;
+}
