@@ -11,7 +11,7 @@
 
             $('.tabs-items ul li').removeClass('active'); 
 
-            if($(this).hasClass('inactive')){ //this is the start of our condition 
+            if($(this).hasClass('inactive')){
                 
                 $('.tabs-items ul li').addClass('inactive');                      
                 $(this).removeClass('inactive');
