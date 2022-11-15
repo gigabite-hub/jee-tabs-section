@@ -230,3 +230,8 @@ html {
     width: 47.7%;
     margin: 10px;
 }
+
+
+.list-item-con-item p span a {
+    color: #008060;
+}
