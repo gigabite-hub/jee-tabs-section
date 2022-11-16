@@ -178,11 +178,12 @@ html {
 }
 
 .faq-wrapper {
-    text-align: center;
+    /* text-align: center; */
 }
 .faq-wrapper h2 {
     font-size: 40px;
     font-weight: 800;
+    text-align: center;
 }
 
 .faq-container-item>h3 {
@@ -209,18 +210,18 @@ html {
 }
 
 .faq-container {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-start;
-    text-align: left;
+    text-align: left; */
     width: 70%;
     margin: 0 auto;
 }
 
-.faq-container-item {
+/* .faq-container-item {
     display: block;
     flex-grow: 0;
     flex-shrink: 1;
@@ -229,7 +230,7 @@ html {
     order: 0;
     width: 47.7%;
     margin: 10px;
-}
+} */
 
 
 .list-item-con-item p span a {
