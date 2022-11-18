@@ -180,6 +180,7 @@ html {
 .faq-wrapper {
     /* text-align: center; */
 }
+
 .faq-wrapper h2 {
     font-size: 40px;
     font-weight: 800;
@@ -193,7 +194,7 @@ html {
     margin-bottom: 40px;
 }
 
-.list-items-container  .list-item-con-item h3 {
+.list-items-container .list-item-con-item h3 {
     font-size: 18px;
     font-weight: 500;
     margin: 0px;
@@ -203,7 +204,7 @@ html {
     margin-bottom: 30px;
 }
 
-.list-items-container  .list-item-con-item p {
+.list-items-container .list-item-con-item p {
     font-size: 16px;
     font-weight: 500;
     color: #6B7177;
@@ -240,4 +241,118 @@ html {
 
 .tabs-items ul li.active {
     border-left: 3px solid #000000;
+}
+
+
+/* Pricing Table */
+.pricing-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pricing-container table tbody tr td:nth-child(1),
+.pricing-container table thead tr th:nth-child(1) {
+    width: 33.3333%;
+}
+
+.pricing-container table tbody tr td,
+.pricing-container table thead tr th {
+    width: 16.66666%;
+    border: 1px solid #d2d5d9;
+}
+
+.pricing-container table {
+    border-collapse: collapse;
+}
+
+.pricing-container table thead tr th {
+    text-align: center;
+}
+
+.pricing-section th h4 {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pricing-section p .currency {
+    color: #828a91;
+    font-weight: 400;
+    padding-right: 0.25rem;
+}
+
+.pricing-section p .currency-symbol {
+    color: #212326;
+    font-size: 1rem;
+    align-self: flex-start;
+}
+
+.pricing-section p .price {
+    font-size: 2.5rem;
+    line-height: 2.8125rem;
+}
+
+.pricing-section p .per-month {
+    color: #828a91;
+    font-size: 1.125rem;
+    line-height: 0.25rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    padding-bottom: 0.75rem;
+    align-self: flex-end;
+}
+
+.pricing-section p {
+    margin: 0px;
+}
+
+
+.pricing-section th {
+    padding: 20px 0px
+}
+
+.pricing-container table thead tr th:nth-child(1) {
+    border: none;
+}
+
+.pricing-container table tbody .features-sec th {
+    text-align: left;
+    background-color: #f0f1f2;
+    font-weight: 400;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.feature-details td dl dd {
+    margin: 0px;
+    color: #6B7177;
+    font-size: 13px;
+}
+
+.feature-details td dl dt {
+    font-size: 14px;
+    color: #212326;
+}
+
+.feature-details td {
+    padding: 0px 10px;
+}
+
+.feature-details td:not(:first-child) {
+    text-align: center;
+    color: #2c957b;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.feature-details:hover {
+    background-color: #f0f1f2;
+    transition: all 0.5s;
+}
+
+.features-sec {
+    border: 1px solid #d2d5d9;
 }
