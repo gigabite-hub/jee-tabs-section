@@ -356,3 +356,44 @@ html {
 .features-sec {
     border: 1px solid #d2d5d9;
 }
+
+.pricing-btn {
+    text-align: center;   
+    margin-bottom: 50px;
+}
+
+.pricing-btn button {
+    background-color: #008060;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #008060;
+}
+
+.pricing-btn button span {
+    color: #008060;
+    font-size: 16px;
+    font-weight: 600;
+}
+.pricing-btn button:hover {
+    background-color: #008060;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.pricing-btn button:hover span {
+    color: #ffffff;
+}
+
+.table-hide {
+    display: none;
+}
+
+.pri-hide {
+    display: none;
+}
+.pri-show {
+    display: block;
+}
